@@ -1,0 +1,49 @@
+/* header.css */
+
+.headerSearch {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  position: absolute;
+  top:58%;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between items */
+}
+
+.headerIcon {
+  font-size: 20px;
+  color: #333; /* Example icon color */
+}
+
+.headerSearchInput {
+  padding: 10px;
+  border: 1px solid #ccc; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  width: 200px; /* Adjust width as needed */
+}
+
+.headerSearchText {
+  cursor: pointer;
+}
+
+.headerBtn {
+  padding: 10px 20px;
+  background-color: #007bff; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px; /* Example border radius */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.headerBtn:hover {
+  background-color: #0056b3; /* Example hover color */
+}
+
+
