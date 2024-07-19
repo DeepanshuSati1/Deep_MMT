@@ -16,7 +16,7 @@ const port = process.env.PORT || 3000;
 connectDB();
 
 app.use(cors({
-  origin:[""],
+  origin:["https://deep-mmt-api.vercel.app"],
   methods:["POST","GET"],
   credentials:true
 }));
